@@ -8,6 +8,13 @@ import Link from 'next/link';
 
 export default function Home({allPostsData}) {
   return (
+    <>
+    
+    <Head>
+      <title>Create Next App </title>
+      <meta property="og:title" content="My page title" key="title" />
+
+    </Head>
     <Layout home>
     {/* Keep the existing code here */}
 
@@ -28,6 +35,7 @@ export default function Home({allPostsData}) {
         </section>
         <h2>Dit is een test</h2>
     </Layout>
+    </>
   );
 }
 
