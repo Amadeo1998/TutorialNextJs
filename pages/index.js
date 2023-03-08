@@ -26,6 +26,7 @@ export default function Home({allPostsData}) {
             ))}
         </ul>
         </section>
+        <h2>Dit is een test</h2>
     </Layout>
   );
 }
